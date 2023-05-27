@@ -23,7 +23,7 @@ const delay = (ms) => {
 };
 
 function navigateToProfilePage() {
-  window.location.href = "/localStorageAuth/profile.html";
+  window.location.href = "profile.html";
 }
 
 if (token) {
