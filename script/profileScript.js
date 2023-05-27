@@ -8,7 +8,7 @@ const profilePass = document.querySelector(".profile-password");
 const logoutButton = document.getElementById("logout-btn");
 
 function navigateToSignupPage() {
-  window.location.href = "../index.html";
+  window.location.href = "/index.html";
 }
 if (!token) {
   navigateToSignupPage();
