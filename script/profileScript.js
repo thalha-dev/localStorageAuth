@@ -8,7 +8,7 @@ const profilePass = document.querySelector(".profile-password");
 const logoutButton = document.getElementById("logout-btn");
 
 function navigateToSignupPage() {
-  window.location.href = "/localStorage/index.html";
+  window.location.href = "/localStorageAuth/index.html";
 }
 if (!token) {
   navigateToSignupPage();
