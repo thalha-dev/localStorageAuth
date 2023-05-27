@@ -1,0 +1,133 @@
+/* GENERAL STYLES */
+
+html {
+  background: #000;
+  color: #eaf0ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #eaf0ef;
+}
+
+.nav-bar h2 {
+  margin-left: 1em;
+  font-weight: 300;
+}
+
+.navigations {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar a {
+  all: unset;
+  cursor: pointer;
+  display: block;
+  margin: 0 0.5em;
+}
+
+.nav-bar a:focus,
+.nav-bar a:hover {
+  color: #b3b4b5;
+}
+.nav-bar a:last-child {
+  margin-right: 1em;
+}
+
+/* Signup page */
+
+.signup-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.signup-container h1 {
+  padding-top: 1.5em;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs input {
+  /* all: unset; */
+  display: block;
+  font-size: 1.4rem;
+  background: #000;
+  color: #eaf0ef;
+  border: none;
+  border-bottom: 1px solid #eaf0ef;
+  margin-bottom: 1.4em;
+  padding-bottom: 0.8em;
+}
+
+.inputs input:focus {
+  outline: none;
+}
+
+.inputs input::placeholder {
+  color: #b3b4b5;
+}
+
+#mandatory,
+#signup-success {
+  display: none;
+  color: #e52927;
+  font-size: 1.3rem;
+}
+
+#signup-success {
+  color: #00870f;
+}
+
+#signup-btn {
+  padding: 0.6em 2.6em;
+}
+
+/* <p id="mandatory">Error: All the fields are mandatory</p> */
+/* <p id="signup-success">Successfully Signed Up!</p> */
+
+/* PROFILE PAGE */
+
+.profile-container {
+  width: 95%;
+  margin: 5em auto;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-element {
+  display: flex;
+}
+
+.profile-element p {
+  font-size: 1.8rem;
+}
+
+.profile-element p:nth-child(2) {
+  margin-left: 1em;
+}
+
+#logout-btn {
+  padding: 0.6em 2.6em;
+  width: 10%;
+}
